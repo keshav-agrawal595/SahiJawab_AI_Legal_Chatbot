@@ -154,7 +154,7 @@ def main():
         st.sidebar.info("Special Thanks to our Mentor\n\nDr.Ankur Rai, Professor, \n\nGLA UNIVERSITY, Mathura")
         st.sidebar.write("---\n")
 
-    if user_question := st.chat_input(disabled=not (groq_api_key and google_api_key)):
+    if user_question := st.chat_input(disabled=not (groq_api_key and google_api_key and doc)):
         st.session_state.messages.append({"role": "user", "content": user_question})
         with st.chat_message("user"):
             st.write(user_question)
