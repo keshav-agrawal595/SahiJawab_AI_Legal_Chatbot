@@ -58,7 +58,7 @@ Answer:
 """
 )
 
-def get_vector_store():
+def get_vector_store(progress):
     global google_api_key
 
     if "vectors" not in st.session_state:
