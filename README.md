@@ -1,4 +1,5 @@
-![landscape_logo](https://github.com/keshav-agrawal595/SahiJawab/assets/59056315/f3a1e49a-5282-413e-942f-4f87a7e1cdd3)
+![landscape_logo](https://github.com/keshav-agrawal595/SahiJawab_AI_Legal_Chatbot/assets/59056315/e3e74f0a-84bc-4fbb-91bb-882fa5a7d4db)
+
 
 
 # Sahi Jawab
@@ -13,19 +14,31 @@ Hii, I am your go-to platform for all your legal queries. We have embedded the e
 5. Streamlit (for Web UI Interface)
 
 ### Screenshots
+![ss1](https://github.com/keshav-agrawal595/SahiJawab_AI_Legal_Chatbot/assets/59056315/1006b528-314d-4785-9853-994d513f9ab3)
 
-![ss1](https://github.com/keshav-agrawal595/SahiJawab/assets/59056315/26877831-9d39-4973-b0c6-f39da32bb042)
-
-![sp_1](https://github.com/keshav-agrawal595/SahiJawab/assets/59056315/f6540a44-d4fe-4078-bf18-0a80979f3d08)
-![sp_2](https://github.com/keshav-agrawal595/SahiJawab/assets/59056315/11039522-d90e-4285-8a89-d863a1462416)
-![sp_3](https://github.com/keshav-agrawal595/SahiJawab/assets/59056315/1697aaaf-fb51-4c33-ab11-e63de2fdd759)
-
-![gif_1_doc_embed](https://github.com/keshav-agrawal595/SahiJawab/assets/59056315/9eb801cc-3a1b-4e1f-b46c-b18dce6e2bfe)
-
-![chrome-capture-2024-7-9](https://github.com/keshav-agrawal595/SahiJawab/assets/59056315/454abb56-e885-4bf8-911c-f9c8c9bc69a6)
+![sp_1](https://github.com/keshav-agrawal595/SahiJawab_AI_Legal_Chatbot/assets/59056315/9981b31e-5764-461c-8a83-85cbab1f5834)
 
 
-![record_ques_name](https://github.com/keshav-agrawal595/SahiJawab/assets/59056315/002c157f-dea7-48b0-8c2c-fa88040e2726)
+![sp_2](https://github.com/keshav-agrawal595/SahiJawab_AI_Legal_Chatbot/assets/59056315/a04f8666-aff7-4068-809b-422f70fcbe1d)
+![sp_3](https://github.com/keshav-agrawal595/SahiJawab_AI_Legal_Chatbot/assets/59056315/42da4d4a-282e-4428-87f7-c2d745b68741)
+
+
+![gif_1_doc_embed](https://github.com/keshav-agrawal595/SahiJawab_AI_Legal_Chatbot/assets/59056315/9dec3981-9b8b-4962-bb6d-ccce2dc4300b)
+
+
+![record_ques_name](https://github.com/keshav-agrawal595/SahiJawab_AI_Legal_Chatbot/assets/59056315/64a0ab0c-407f-4ab0-8c06-c40bb218956d)
+
+
+
+![record_ques_start](https://github.com/keshav-agrawal595/SahiJawab_AI_Legal_Chatbot/assets/59056315/e9cee108-15a8-4eee-b974-d0552f73d8ba)
+![record_ques_end](https://github.com/keshav-agrawal595/SahiJawab_AI_Legal_Chatbot/assets/59056315/776a1f1d-0b73-4336-b001-22cf1cd2a4b7)
+
+
+
+
+
+
+
 
 
 ![record_ques_start](https://github.com/keshav-agrawal595/SahiJawab/assets/59056315/c34a83e3-ab6f-49a3-92af-d1e020d773c7)
