@@ -81,9 +81,9 @@ def main():
         page_icon="⚖️"               
     )
     st.sidebar.title("Sahi Jawab : Your Nyaya Mitra")
-    st.logo("logo\sidebar_logo.png", icon_image="logo\only_logo.png")
+    st.logo("logo/sidebar_logo.png", icon_image="logo/only_logo.png")
     with st.sidebar.container(): 
-        st.image('logo\Sahi Jawab.png', use_column_width=True, caption='Sahi Jawab : Your Nyaya Mitra 👩🏻‍⚖️📚𓍝')
+        st.image('logo/Sahi Jawab.png', use_column_width=True, caption='Sahi Jawab : Your Nyaya Mitra 👩🏻‍⚖️📚𓍝')
         with st.expander("About Us",icon=":material/info:"):
             st.success("Hii, I am your go-to platform for all your legal queries. We have embedded the entire Bhartiya Nyaya Sanhita to provide accurate and reliable information on Indian laws. Our aim is to make legal knowledge accessible to everyone. Simply ask your questions, and our intelligent system will guide you with clear and concise answers. Whether you're seeking legal advice or just curious about the law, Sahi Jawab is here to help.")
         st.sidebar.markdown("---")
