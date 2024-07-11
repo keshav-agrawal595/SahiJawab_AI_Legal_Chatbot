@@ -111,7 +111,10 @@ def main():
                 st.warning('Please enter your credentials!', icon='⚠️')
             else:
                 st.success('Proceed to entering your prompt message!', icon='👉')
-    load_model()
+    if groq_api_key and google_api_key:
+        load_model()
+    else:
+        st.write("Enter valid api keys")
 
     st.sidebar.markdown("---")
 
