@@ -143,13 +143,14 @@ def main():
         st.title("Start the App by Clicking Here ✅")
         doc=st.button("Start Documents Embedding")
         
-        if doc:
-
-            with st.spinner("Processing..."):
-                get_vector_store()
-                st.info("VectorDB Store is Ready")
-                st.success("You're good to go !! ")
-                st.success("Ask Questions now...")
+        
+        if google_api_key and groq_api_key:
+            if doc:
+                with st.spinner("Processing..."):
+                    get_vector_store()
+                    st.info("VectorDB Store is Ready")
+                    st.success("You're good to go !! ")
+                    st.success("Ask Questions now...")
 
         st.sidebar.write("---\n")
         st.sidebar.success(print_praise())   
