@@ -158,13 +158,16 @@ def main():
             else:
                 st.error("Please Enter API Keys first")
 
-        st.sidebar.write("---\n")
-        st.sidebar.success(print_praise())   
-        st.sidebar.write("---\n")
-        st.sidebar.info("Special Thanks to our Mentor\n\nDr.Ankur Rai, Professor, \n\nGLA UNIVERSITY, Mathura")
-        st.sidebar.write("---\n")
+        st.write("---\n")
+        st.success(print_praise())   
+        st.write("---\n")
+        st.info("Special Thanks to our Mentor\n\nDr.Ankur Rai, Professor, \n\nGLA UNIVERSITY, Mathura")
+        st.write("---\n")
 
-    if user_question := st.chat_input(disabled=not (groq_api_key and google_api_key and doc)):
+    user_question = st.chat_input(disabled=not (groq_api_key and google_api_key and st.session_state.get('embedding_done', False)))
+    
+    if user_question:
+
         st.session_state.messages.append({"role": "user", "content": user_question})
         with st.chat_message("user"):
             st.write(user_question)
