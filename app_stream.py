@@ -144,13 +144,15 @@ def main():
         doc=st.button("Start Documents Embedding")
         
         
-        if google_api_key and groq_api_key:
-            if doc:
+        if doc:
+            if google_api_key and groq_api_key:
                 with st.spinner("Processing..."):
                     get_vector_store()
                     st.info("VectorDB Store is Ready")
                     st.success("You're good to go !! ")
                     st.success("Ask Questions now...")
+            else:
+                st.error("Please Enter API Keys first")
 
         st.sidebar.write("---\n")
         st.sidebar.success(print_praise())   
