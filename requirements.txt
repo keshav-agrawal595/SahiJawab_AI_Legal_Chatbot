@@ -9,3 +9,4 @@ langchain-community
 langchain_core
 groq
 langchain-groq
+pypdf
