@@ -59,6 +59,7 @@ Answer:
 )
 
 def get_vector_store():
+    global google_api_key
 
     if "vectors" not in st.session_state:
 
@@ -100,6 +101,7 @@ def main():
             if not (groq_api_key.startswith('gsk_') and len(groq_api_key)==56):
                 st.warning('Please enter your credentials!', icon='⚠️')
             else:
+                st.secrets['GROQ_API_KEY']=groq_api_key
                 st.success('Proceed to entering your prompt message!', icon='👉')
 
         if 'GOOGLE_API_KEY' in st.secrets:
@@ -110,6 +112,7 @@ def main():
             if not (google_api_key):
                 st.warning('Please enter your credentials!', icon='⚠️')
             else:
+                st.secrets['GOOGLE_API_KEY']=google_api_key
                 st.success('Proceed to entering your prompt message!', icon='👉')
     if groq_api_key and google_api_key:
         load_model()
