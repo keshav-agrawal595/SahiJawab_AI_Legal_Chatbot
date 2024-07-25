@@ -11,3 +11,4 @@ groq
 langchain-groq
 pypdf
 stqdm
+langchain-openai
