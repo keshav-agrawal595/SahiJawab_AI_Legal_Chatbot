@@ -13,6 +13,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
+os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
+os.environ["LANGCHAIN_PROJECT"]=os.getenv("LANGCHAIN_PROJECT")
+os.environ["LANGCHAIN_TRACING_V2"]="true"
+
+
 global model
 global groq_api_key
 global google_api_key
@@ -25,7 +31,7 @@ def load_model():
     genai.configure(api_key=google_api_key)
 
     model = ChatGroq(groq_api_key=groq_api_key,
-                        model_name="Llama3-70b-8192")
+                        model_name="Llama-3.1-70b-versatile")
     
 
 prompt_template = ChatPromptTemplate.from_template(
